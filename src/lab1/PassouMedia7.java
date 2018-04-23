@@ -1,6 +1,7 @@
 package lab1;
 
 import java.util.Scanner;
+
 /**
  * Laboratório de Programação 2 - Lab 1
  * @author Júlia Fernandes Alves (117211383) julia.alves@ccc.ufcg.edu.br
@@ -10,7 +11,7 @@ public class PassouMedia7 {
     private static final int VALOR_MEDIA = 7;
 
     /**
-     * Classe principal.
+     * Média principal.
      * @param args
      */
     public static void main(String[] args) throws Exception{

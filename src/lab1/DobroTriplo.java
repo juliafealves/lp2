@@ -4,12 +4,13 @@ import java.util.Scanner;
 
 /**
  * Laboratório de Programação 2 - Lab 1
- * @author Júlia Fernandes Alves (117211383) julia.alves@ccc.ufcg.edu.br
+ * @author Júlia Fernandes Alves (117211383)
+ * julia.alves@ccc.ufcg.edu.br
  */
 public class DobroTriplo {
     /**
-     * Classe principal.
-     * @param args - argumentos enviados via console.
+     * Média principal.
+     * @param args
      */
     public static void main(String[] args) {
         int numero = lerNumero();
@@ -21,7 +22,7 @@ public class DobroTriplo {
 
     /**
      * Retorna o dobro de um número.
-     * @param numero - número inteiro.
+     * @param numero
      * @return int
      */
     private static int calcularDobro(int numero){
@@ -30,7 +31,7 @@ public class DobroTriplo {
 
     /**
      * Retorna o triplo de um número.
-     * @param numero - número inteiro.
+     * @param numero
      * @return int
      */
     private static int calcularTriplo(int numero){
@@ -39,7 +40,7 @@ public class DobroTriplo {
 
     /**
      * Exibe uma mensagem no console.
-     * @param mensagem - mensagem a ser exibida.
+     * @param mensagem
      */
     private static void imprimirMensagem(String mensagem){
         System.out.println(mensagem);
